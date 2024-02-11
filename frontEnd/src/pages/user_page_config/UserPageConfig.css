@@ -1,0 +1,100 @@
+.user_page_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 290px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-color: rgba(198, 198, 202, 0.39);
+}
+
+.user_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user_all_content{
+    display: flex;
+    justify-content: center;
+}
+
+.user_logo_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user_logo_icon img{
+    width: 150px;
+    height: 150px;
+}
+
+.sect_user_content{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    background-color: white;
+    border-radius: 25px;
+    width: 1500px;
+}
+
+.user_information{
+    width: auto;
+    height: auto;
+    margin-top: 25px;
+    background-color: transparent;
+}
+
+.user_items li{
+    background-color: transparent;
+    padding: 5px;
+}
+
+.change_information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 1000px;
+}
+
+.change_information button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 20px;
+    color: black;
+    background-color: rgba(47, 0, 255, 0.158);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.change_information{
+    padding-top: 15px;
+}
+
+.change_information button:hover{
+    background-color: black;
+    color: white;
+}
+
+.user_nickname{
+    text-align: center;
+}
+
+.user_logandsign{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.log_sign_class{
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.445);
+    cursor: pointer;
+}

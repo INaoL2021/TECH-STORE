@@ -1,0 +1,110 @@
+.nav-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.content-all {
+    text-align: center;
+}
+
+.page-logo {
+    width: 60px;
+    height: 60px;
+    margin-left: 30px;
+}
+
+.container-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.131);
+    width: 1500px;
+    height: auto;
+    margin-top: 20px;
+    border: none;
+    border-start-end-radius: 20px;
+    border-start-start-radius: 20px;
+}
+
+.options-cont {
+    position: relative;
+    width: auto;
+    height: 50px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background-color: transparent;
+}
+
+.options-cont .options-btn {
+    position: relative;
+    display: inline-block;
+    font-size: 1em;
+    border: none;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    padding: 0 23px;
+    z-index: 1;
+}
+
+.options-cont span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.295);
+    border-radius: 8px;
+    transition: .5s ease;
+}
+
+.options-cont .options-btn:nth-child(1):hover~span{
+    left: 0px;
+}
+
+.options-cont .options-btn:nth-child(2):hover~span{
+    left: 103px;
+    width: 120px;
+}
+
+.options-cont .options-btn:nth-child(3):hover~span{
+    left: 240px;
+    width: 85px;
+}
+
+.btn-log,
+.btn-sin {
+    color: white;
+    width: 150px;
+    text-decoration: none;
+}
+
+.nav-marquee {
+    color: white;
+    background-color: black;
+    height: 30px;
+    width: 1500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-end-end-radius: 20px;
+    border-end-start-radius: 20px;
+    padding: 10px;
+}
+
+.user-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    margin-left: 10px;
+}

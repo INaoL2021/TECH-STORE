@@ -1,0 +1,114 @@
+.container-catalogo{
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.048);
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    width: 1500px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.product-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-self: space-around;
+    align-items: flex-start;
+    margin-top: 15px;
+}
+
+.card{
+    width: 300px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.411);
+    margin: 10px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.imag-cards-productos{
+    width: 300px;
+    height: 300px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.catalogo-title{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 1500px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.397);
+    color: white;
+    padding: 20px;
+}
+
+.info-cata{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.catalogo-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.modelo-card{
+    width: 280px;
+    margin-top: 10px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.158);
+}
+
+.precio-card{
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.096);
+    border-radius: 20px;
+    color: white;
+    padding: 15px;
+}
+
+.category-list{
+    margin-top: 20px;
+}
+
+.category-list a {
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.category-list a:hover{
+    background-color: black;
+    color: white;
+}
+
+.store-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.catalogo-content-items{
+    width: 1500px;
+}

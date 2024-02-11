@@ -1,0 +1,136 @@
+.container-ayuda{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    width: 600px;
+    height: auto;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.container-ayuda h2{
+    margin-bottom: 20px;
+}
+
+.page-help{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.help-input{
+    width: 550px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.377);
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.search-help-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar-ntn-help{
+    border: none;
+    background-color: rgba(0, 0, 0, 0.115);
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.bar-ntn-help:hover{
+    background-color: rgba(0, 0, 255, 0.078);
+}
+
+.help-input:hover{
+    border: 1px solid rgba(0, 0, 255, 0.176)
+}
+
+.help-options-h{
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+.a-options-buy{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: white;
+    width: 600px;
+}
+
+.a-h1{
+    text-decoration: none;
+    color: black;
+}
+
+.a-opt-1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+}
+
+.a-content-help{
+    display: flex;
+    justify-content: center;
+}
+
+.a-img-icon{
+    margin-right: 20px;
+    background-color: transparent;
+}
+
+.a-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.item-primary{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.item-secondary{
+    margin-top: 8px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.486);
+}
+
+.a-options-buy{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.a-options-buy:hover{
+    background-color: rgba(217, 231, 248, 0.986);
+    border-left: 5px solid rgba(0, 34, 255, 0.452);
+}
+
+.item-primary:before{
+    color: blue;
+}
+
+.help-ul-opt{
+    padding: 0px;
+    margin: 0px;
+}
+
+.a-opt-items-info{
+    text-align: start;
+}
+
+.arrow-options-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    cursor: pointer;
+}

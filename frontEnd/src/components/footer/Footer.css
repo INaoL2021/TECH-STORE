@@ -1,0 +1,126 @@
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    border: none;
+    width: 1500px;
+    background-color: rgba(255, 255, 255, 0.131);
+    color: rgb(255, 255, 255);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.footer-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-div{
+    text-align: center;
+    width: 300px;
+    height: 190px;
+    padding: 10px;
+    border: none;
+    border-radius: none;
+}
+
+ul{
+    list-style: none;
+}
+
+ol{
+    list-style: none;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.social-sites{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: start;
+}
+
+.social-sites a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.329);
+    border-radius: 100px;
+}
+
+.social-sites a:hover{
+    background-color: white;
+    border-radius: 100px;
+}
+
+.social-sites img{
+    width: 40px;
+    height: 40px;
+}
+
+.social-sites li{
+    padding: 2px;
+}
+
+.footer-div h4{
+    background-color: black;
+    padding: 5px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.footer_other_info{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.247);
+    text-align: center;
+    padding: 5px;
+    width: 1500px;
+    height: 50px;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.footer_other_info ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.footer_other_info li{
+    padding: 10px;
+    width: auto;
+    height: 45px;
+    background-color: transparent;
+}
+
+.footer_other_info a{
+    color: rgba(255, 255, 255, 0.336);
+    cursor: pointer;
+}
+
+.footer_other_info a:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.123);
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.footer_bottom{
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.281);
+    width: auto;
+    height: 35px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
