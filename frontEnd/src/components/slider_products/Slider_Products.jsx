@@ -38,7 +38,7 @@ function SliderProducts() {
                                     {producto.model}
                                 </a>
                                 <div className="price-buy">
-                                    <span className='p-price'>{producto.price}$</span>
+                                    <span className='p-price'>${producto.price}</span>
                                     <a href="" className='buy-btn'>Buy Now</a>
                                 </div>
                             </div>
