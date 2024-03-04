@@ -44,7 +44,7 @@ export const productCatalog = [
     { category: 'Monitor', quantity: 6, model: 'Gigabyte G27QC A-SA 27 Curvo 165HZ 2K HDMI/DP', price: 15000, image: 'https://s3-sa-east-1.amazonaws.com/saasargentina/j4DpPMMwYTAnprKIyW0N/imagen' },
     { category: 'Monitor', quantity: 10, model: 'Asus Tuf Curvo Fhd 144hz Dp Hdmi Vg24vq', price: 12000, image: 'https://http2.mlstatic.com/D_NQ_NP_812033-MLA44490472301_012021-W.webp' },
     { category: 'Monitor', quantity: 8, model: 'Samsung CRG5 27 Curvo 240Hz G-Sync HDMI/DP', price: 17000, image: 'https://s3-sa-east-1.amazonaws.com/saasargentina/bUXbJHxOq0BzwVOcwCvc/imagen' },
-    { category: 'Monitor', quantity: 1, model: 'ViewSonic VX2468-PC-MHD 24 165Hz Curvo HDMI/DP', price: 14000, image: 'https://s3-sa-east-1.amazonaws.com/saasargentina/7RsxcJVQJGUQWFFMixM3/imagen' },
+    { category: 'Monitor', quantity: 1, model: 'ViewSonic VX2468-PC-MHD 165Hz', price: 14000, image: 'https://s3-sa-east-1.amazonaws.com/saasargentina/7RsxcJVQJGUQWFFMixM3/imagen' },
     { category: 'Gabinete', quantity: 5, model: 'XPG STARKER', price: 18000, image: 'https://m.media-amazon.com/images/I/31uvjvWYnUL.jpg' },
     { category: 'Gabinete', quantity: 3, model: 'Haizen 2500 ITX', price: 10000, image: 'https://m.media-amazon.com/images/I/51LL7ltq5kL.jpg' },
     { category: 'Gabinete', quantity: 2, model: 'Corsair 4000D Airflow Chasis ATX Semitorre', price: 17000, image: 'https://m.media-amazon.com/images/I/41ELVHEeSaL.jpg' },

@@ -22,7 +22,7 @@ function NavBar() {
           <div>
             <div className='container-nav'>
               <div className='top-nav'>
-                <img className='page-logo' onClick={() => navigateTo('home')} src={logo} alt="" />
+                <img className='page-logo' onClick={() => navigateTo('home')} src={logo} alt=""/>
               </div>
               <div className='options-cont'>
                 <button className='options-btn' onClick={() => navigateTo('home')}><b>HOME</b></button>

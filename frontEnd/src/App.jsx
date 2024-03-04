@@ -1,6 +1,6 @@
 import './App.css';
 import { useEffect } from 'react';
-import React from 'react';
+import React, {useState} from 'react';
 import NavBar from '../src/components/navbar/NavBar';
 import Footer from '../src/components/footer/Footer';
 import io from 'socket.io-client';
