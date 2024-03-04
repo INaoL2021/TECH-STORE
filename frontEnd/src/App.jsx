@@ -1,9 +1,9 @@
 import './App.css';
 import { useEffect } from 'react';
-import React, {useState} from 'react';
-import NavBar from '../src/components/navbar/NavBar';
-import Footer from '../src/components/footer/Footer';
+import React from 'react';
 import io from 'socket.io-client';
+import Loading from './components/Loading/Loading';
+
 const socket = io('http://localhost:5000');
 
 function App() {
@@ -15,8 +15,7 @@ function App() {
   }, []);
   return (
     <div className="App">
-      <NavBar />
-      <Footer />
+      <Loading />
     </div>
   )
 }
