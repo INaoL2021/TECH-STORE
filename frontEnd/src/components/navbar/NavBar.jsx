@@ -5,15 +5,24 @@ import Ayuda from '../../pages/Ayuda/Ayuda';
 import Catalogo from '../../pages/Catalogo/Catalogo';
 import logo from '../../assets/logo.png'
 import Searchbar from '../searchBar/SearchBar';
-import UserPageConfig from '../../pages/user_page_config/UserPageConfig';
+import DropDownProfile from '../dropDownProfile/DropDownProfile';
 
 import iconUser from '../../assets/user_logo_none.svg'
+import UserPageConfig from '../../pages/user_page_config/UserPageConfig';
+import Login from '../../pages/User/Login/Login';
 
 function NavBar() {
   const [currentPage, setCurrentPage] = useState('home');
   const navigateTo = (page) => {
     setCurrentPage(page);
   };
+  const [openProfile, setOpenProfile] = useState(false);
+
+  // Define los botones/direcciones que quieres incluir dentro del DropDownProfile
+  const profileButtons = [
+    { label: 'Iniciar Sesión', onClick: () => navigateTo('login') },
+    { label: 'Configuración', onClick: () => navigateTo('userpageconfig') }
+  ];
 
   return (
     <div>
@@ -32,7 +41,7 @@ function NavBar() {
               </div>
               <Searchbar />
               <div className='options-cont'>
-                <button className='user-logo' onClick={() => navigateTo('userpageconfig')}><img src={iconUser}></img></button>
+                <button className='user-logo' onClick={() => setOpenProfile((prev) => !prev)}><img src={iconUser}></img></button>
               </div>
             </div>
             <div className='nav-marquee'>
@@ -41,9 +50,12 @@ function NavBar() {
           </div>
         </div>
       </nav>
+      {/* Pasa los botones/direcciones como prop al componente DropDownProfile */}
+      {openProfile && <DropDownProfile buttons={profileButtons} />}
       {currentPage === 'home' && <Home />}
       {currentPage === 'ayuda' && <Ayuda />}
       {currentPage === 'catalogo' && <Catalogo />}
+      {currentPage === 'login' && <Login />}
       {currentPage === 'userpageconfig' && <UserPageConfig />}
     </div>
   );

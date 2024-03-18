@@ -21,8 +21,8 @@ function Loading() {
                 <Spinner className='spinnerReactstrap' color="primary" />
             ) : (
                 <div>
-                    <NavBar/>
-                    <Footer/>
+                    <NavBar />
+                    <Footer />
                 </div>
             )}
         </div>

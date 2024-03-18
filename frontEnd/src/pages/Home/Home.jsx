@@ -1,6 +1,5 @@
 import './Home.css'
 import Carousel_banners from '../../components/carousel/Carousel_banners'
-import MultiCarousel from '../../components/multi-arousel/MultiCarousel'
 import iconWhatsapp from '../../assets/icon-whatsapp-green.png'
 import SliderProducts from '../../components/slider_products/Slider_Products'
 
