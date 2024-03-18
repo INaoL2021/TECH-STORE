@@ -18,7 +18,7 @@ function NavBar() {
   };
   const [openProfile, setOpenProfile] = useState(false);
 
-  // Define los botones/direcciones que quieres incluir dentro del DropDownProfile
+  // Direcciones del DropDownProfile
   const profileButtons = [
     { label: 'Iniciar Sesión', onClick: () => navigateTo('login') },
     { label: 'Configuración', onClick: () => navigateTo('userpageconfig') }
